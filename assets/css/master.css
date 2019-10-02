@@ -72,3 +72,16 @@ header {
 /* ------------------------------- */
 /*      INNOVATIVE BUSINESS        */
 /* ------------------------------- */
+#innovative-business .container {
+  width: 80%;
+}
+#innovative-business .row img {
+  height: 100%;
+  width: 90%;
+  line-height: 100%;
+}
+
+
+#innovative-business .row {
+  height: 115px;
+}
