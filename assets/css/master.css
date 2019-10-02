@@ -14,6 +14,9 @@ body {
 ul {
   list-style-type: none;
 }
+a {
+  text-decoration: none;
+}
 /* ------------------------------- */
 /*         HEADER         */
 /* ------------------------------- */
@@ -24,21 +27,30 @@ header {
 .top-menu-wrapper {
   background-color: #fff;
 }
-/* header Floats */
-.new-btn,
-.now-available,
-#new-oc-menu nav li {
-  float: left;
-}
-#new-oc-menu nav {
-  float: right;
-}
-/*-> fine header floats */
 .top-menu-cont {
   margin: 0 auto;
   width: 95%;
 }
+/* header Floats */
+.new-btn,
+.now-available,
+#new-oc-menu nav li,
+.digital-logo,
+#digital-oc-menu nav,
+#digital-oc-menu nav li {
+  float: left;
+}
+#new-oc-menu nav,
+.signup-btn {
+  float: right;
+}
+/*-> fine header floats */
 /* header spacing */
+
+#digital-oc-menu nav li{
+  height: 35px;
+  line-height: 35px;
+}
 
 /* debug */
 #new-oc-menu {
