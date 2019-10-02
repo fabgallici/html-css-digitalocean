@@ -10,7 +10,9 @@ body {
 
   background-color: #fff;
 }
-
+h2 {
+  text-align: center;
+}
 [background="grey"] {
   background-color: #F3F5F9;
 }
@@ -134,11 +136,24 @@ header {
   max-width: 1170px;
   width: 95%;
 }
-
+#built-for-bus h2 {
+  text-align: center;
+}
 
 /* ------------------------------- */
 /*     SERVICE YOUR CUSTOMERS     */
 /* ------------------------------- */
+#serv-your-cust {
+  background-color: #0F2656;
+  color: white;
+}
+#serv-your-cust table {
+  width: 100%;
+  border-collapse: collapse;
+}
+#serv-your-cust th, td {
+  border-bottom: 1px solid #ddd;
+}
 
 
 /* ------------------------------- */
