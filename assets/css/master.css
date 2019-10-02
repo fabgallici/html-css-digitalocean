@@ -114,15 +114,22 @@ header {
   max-width: 900px;
 }
 
+/* ------------------------------- */
+/*     DESIGNED FOR DEVELOPERS     */
+/* ------------------------------- */
+#design-for-devs > .container {
+  max-width: 865px;
+  text-align: center;
+}
+#design-for-devs > .container > img {
+  display: block;
+  margin: auto;
+  width: 90%;
+}
 
-
-
-/* #deploy-scale .container .row:last-child {
-  border: 1px solid;
-} */
-
-
-
+/* ------------------------------- */
+/*     BUILT FOR BUSINESS     */
+/* ------------------------------- */
 
 
 
