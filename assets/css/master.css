@@ -22,7 +22,9 @@ a {
 /* ------------------------------- */
 header {
 
-  background-color: lightblue;
+  background-image: url("../img/bg-home.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .top-menu-wrapper {
   background-color: #fff;
@@ -56,3 +58,17 @@ header {
 #new-oc-menu {
   border: 1px solid black;
 }
+
+/*  WELCOME DEV Bottom Header  */
+#welcome-dev.container {
+  width: 85%;
+  margin-top: 40px;
+  padding-bottom: 40px;
+}
+#welcome-dev .row .left {
+  color: #fff;
+}
+
+/* ------------------------------- */
+/*      INNOVATIVE BUSINESS        */
+/* ------------------------------- */
