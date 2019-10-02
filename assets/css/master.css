@@ -8,7 +8,11 @@
 body {
   font-family: 'Open Sans', sans-serif;
 
-  background-color: pink;
+  background-color: #fff;
+}
+
+[background="grey"] {
+  background-color: #F3F5F9;
 }
 
 ul {
@@ -77,17 +81,16 @@ header {
 } */
 #innovative-business {
   text-align: center;
+
 }
+/* Immagini dim variabili responsive, Vedi mq 779px regole aggiuntive */
 .innovative-img-container img {
   width: 90%;
   vertical-align: middle;
 }
 
-
-/*  */
 .innovative-img-container li {
   display: inline-block;
-  /* width: 16%; */
   width: calc((100%/6) - 4px);
 }
 
@@ -96,16 +99,43 @@ header {
   margin: auto;
 }
 
+/* ------------------------------- */
+/*      DEPLOY AND SCALE        */
+/* ------------------------------- */
+#deploy-scale > .title {
+  max-width: 970px;
+  width: 95%;
+  margin: auto;
+  text-align: center;
+}
+#deploy-scale .container {
+  max-width: 850px;
+  width: 75%;
+  max-width: 900px;
+}
 
 
 
+
+/* #deploy-scale .container .row:last-child {
+  border: 1px solid;
+} */
+
+
+
+
+
+
+/* ------------------------------- */
+/*      MEDIA QUERY       */
+/* ------------------------------- */
 @media screen and (max-width:779px) {
   /* Innovative section */
   .innovative-img-container {
     width: 90%;
   }
   .innovative-img-container li {
-    width: 49%;
+    width: calc((100%/12)*6 - 4px);
   }
   .innovative-img-container img {
     width: 80%;
