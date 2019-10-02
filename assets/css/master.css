@@ -72,16 +72,41 @@ header {
 /* ------------------------------- */
 /*      INNOVATIVE BUSINESS        */
 /* ------------------------------- */
-#innovative-business .container {
+/* #innovative-business .container {
   width: 80%;
+} */
+#innovative-business {
+  text-align: center;
 }
-#innovative-business .row img {
-  height: 100%;
+.innovative-img-container img {
   width: 90%;
-  line-height: 100%;
+  vertical-align: middle;
 }
 
 
-#innovative-business .row {
-  height: 115px;
+/*  */
+.innovative-img-container li {
+  display: inline-block;
+  width: 16%;
+}
+
+.innovative-img-container {
+  width: 75%;
+  margin: auto;
+}
+
+
+
+
+@media screen and (max-width:779px) {
+  /* Innovative section */
+  .innovative-img-container {
+    width: 90%;
+  }
+  .innovative-img-container li {
+    width: 49%;
+  }
+  .innovative-img-container img {
+    width: 80%;
+  }
 }
