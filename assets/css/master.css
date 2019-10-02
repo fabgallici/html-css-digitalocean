@@ -6,5 +6,41 @@
 }
 
 body {
+  font-family: 'Open Sans', sans-serif;
+
   background-color: pink;
+}
+
+ul {
+  list-style-type: none;
+}
+/* ------------------------------- */
+/*         HEADER         */
+/* ------------------------------- */
+header {
+
+  background-color: lightblue;
+}
+.top-menu-wrapper {
+  background-color: #fff;
+}
+/* header Floats */
+.new-btn,
+.now-available,
+#new-oc-menu nav li {
+  float: left;
+}
+#new-oc-menu nav {
+  float: right;
+}
+/*-> fine header floats */
+.top-menu-cont {
+  margin: 0 auto;
+  width: 95%;
+}
+/* header spacing */
+
+/* debug */
+#new-oc-menu {
+  border: 1px solid black;
 }

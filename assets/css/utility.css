@@ -1,0 +1,43 @@
+.clearfix:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.trf-50-50 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate( -50%, -50%);
+}
+
+.layover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.center-img > img {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.wd-60 {
+  width: 60%;
+}
+.wd-70 {
+  width: 70%;
+}
+.wd-80 {
+  width: 80%;
+}
+.wd-85 {
+  width: 85%;
+}
+.wd-90 {
+  width: 90%;
+}
