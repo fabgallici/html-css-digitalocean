@@ -87,7 +87,8 @@ header {
 /*  */
 .innovative-img-container li {
   display: inline-block;
-  width: 16%;
+  /* width: 16%; */
+  width: calc((100%/6) - 4px);
 }
 
 .innovative-img-container {
