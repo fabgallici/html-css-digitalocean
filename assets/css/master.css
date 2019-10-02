@@ -103,14 +103,14 @@ header {
 /*      DEPLOY AND SCALE        */
 /* ------------------------------- */
 #deploy-scale > .title {
-  max-width: 970px;
+  max-width: 1100px;
   width: 95%;
   margin: auto;
   text-align: center;
 }
-#deploy-scale .container {
+#deploy-scale > .container {
   max-width: 850px;
-  width: 75%;
+  width: 95%;
   max-width: 900px;
 }
 
