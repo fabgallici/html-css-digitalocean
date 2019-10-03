@@ -151,8 +151,8 @@ header {
   width: 85%;
   margin: auto;
 }
-#deploy-scale > .container {
-  /* padding */
+#deploy-scale > .container .row [class*="col-"] {
+  padding: 10px;
 }
 
 /* ------------------------------- */
