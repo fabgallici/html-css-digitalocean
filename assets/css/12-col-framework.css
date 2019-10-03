@@ -10,10 +10,6 @@
   float: left;
   min-height: 10px;
   height: 100%;
-  /***** Debug ****/
-  /* height: auto;
-  border: 1px solid #000;
-  background: pink; */
 }
 
 /* Contenitore riga sempre width 100% e clear both */

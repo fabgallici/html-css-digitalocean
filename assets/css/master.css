@@ -10,6 +10,9 @@ body {
 
   background-color: #fff;
 }
+h1 {
+  padding: 20px 0;
+}
 h2 {
   text-align: center;
   padding: 15px 0;
@@ -26,6 +29,9 @@ a {
 }
 .mw-970 {
   max-width: 970px;
+}
+.mw-1200 {
+  max-width: 1200px;
 }
 .btn-link:link,
 .btn-link:visited {
@@ -44,6 +50,10 @@ a {
 }
 section {
   padding: 40px 0;
+}
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
 }
 /* ------------------------------- */
 /*         HEADER         */
@@ -89,7 +99,6 @@ header {
 
 /*  WELCOME DEV Bottom Header  */
 #welcome-dev.container {
-  width: 85%;
   margin-top: 40px;
   padding-bottom: 40px;
 }
@@ -119,18 +128,16 @@ header {
 }
 
 .innovative-img-container {
-  width: 75%;
+  max-width: 1130px;
   margin: auto;
 }
 
 /* ------------------------------- */
 /*      DEPLOY AND SCALE        */
 /* ------------------------------- */
-#deploy-scale > .title {
-  max-width: 1100px;
-  width: 95%;
+#deploy-scale .title {
+  width: 85%;
   margin: auto;
-  text-align: center;
 }
 #deploy-scale > .container {
   /* padding */
@@ -152,9 +159,8 @@ header {
 /* ------------------------------- */
 /*     BUILT FOR BUSINESS     */
 /* ------------------------------- */
-#built-for-bus > .container {
-  max-width: 1170px;
-  width: 95%;
+#built-for-bus > .container > .row [class*="col-"] {
+  padding: 10px 25px;
 }
 #built-for-bus h2 {
   text-align: center;
