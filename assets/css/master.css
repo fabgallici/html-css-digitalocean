@@ -198,8 +198,20 @@ header {
   color: #fff;
 }
 
-
-
+/* ------------------------------- */
+/*   FOOTER */
+/* ------------------------------- */
+footer {
+  background-color: #010E28;
+  color: #fff;
+}
+footer > .container:first-child {
+  padding: 40px 0;
+}
+footer > .container:first-child li a {
+  color: #808794;
+  line-height: 150%;
+}
 
 /* ------------------------------- */
 /*      MEDIA QUERY       */
