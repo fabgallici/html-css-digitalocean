@@ -12,6 +12,7 @@ body {
 }
 h2 {
   text-align: center;
+  padding: 15px 0;
 }
 [background="grey"] {
   background-color: #F3F5F9;
@@ -25,6 +26,24 @@ a {
 }
 .mw-970 {
   max-width: 970px;
+}
+.btn-link:link,
+.btn-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 15px 30px;
+  font-weight: bold;
+  text-align: center;
+  color: #551A8B;
+}
+.btn-link:hover,
+.btn-link:active {
+  background-color: #CCDBFF;
+}
+section {
+  padding: 40px 0;
 }
 /* ------------------------------- */
 /*         HEADER         */
@@ -163,6 +182,18 @@ header {
   text-align: center;
 }
 /* img see rule design for dev sec*/
+
+
+/* ------------------------------- */
+/*   GET STARTED NOW */
+/* ------------------------------- */
+#get-start-now {
+  background-color: #0049FF;
+  color: #fff;
+}
+
+
+
 
 /* ------------------------------- */
 /*      MEDIA QUERY       */

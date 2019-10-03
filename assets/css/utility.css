@@ -9,6 +9,9 @@
 .fixed {
   position: fixed;
 }
+.txt-center {
+  text-align: center;
+}
 
 .trf-50-50 {
   position: absolute;
