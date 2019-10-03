@@ -3,6 +3,9 @@
   display: table;
   clear: both;
 }
+.absolute {
+  position: absolute;
+}
 .relative {
   position: relative;
 }
@@ -11,6 +14,9 @@
 }
 .txt-center {
   text-align: center;
+}
+.float-left {
+  float: left;
 }
 
 .trf-50-50 {

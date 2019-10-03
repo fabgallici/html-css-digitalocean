@@ -213,6 +213,31 @@ footer > .container:first-child li a {
   line-height: 150%;
 }
 
+/* bottom footer */
+footer > .container:last-of-type {
+  border-top: 1px solid #343E53;
+  padding: 30px 0;
+}
+footer > .container:last-of-type img {
+  max-height: 65px;
+}
+footer  #do-llc {
+  position: absolute;
+  top: 50%;
+  left: 15%;
+  transform: translateY(-50%);
+}
+footer .social-links {
+  float: right;
+}
+footer .social-links li {
+  display: inline-block;
+  color: #808794;
+}
+footer .social-links a {
+  color: #808794;
+  font-size: 150%;
+}
 /* ------------------------------- */
 /*      MEDIA QUERY       */
 /* ------------------------------- */
