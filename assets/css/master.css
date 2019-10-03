@@ -241,26 +241,14 @@ footer > .container:first-child li a:hover {
   color: #fff;
 }
 
-/* bottom footer */
+/* bottom footer left */
 footer > .container:last-of-type {
   border-top: 1px solid #343E53;
   padding-top: 30px;
   padding-bottom: 30px;
 }
-
-footer #btm-logo li {
-  display: inline-block;
+#btm-logo-img {
   vertical-align: middle;
-}
-/* test footer */
-footer > .container:last-of-type img {
-  /* max-height: 65px; */
-}
-footer  #do-llc {
-  /* position: absolute;
-  top: 50%;
-  left: 15%;
-  transform: translateY(-50%); */
 }
 
 /* bottom footer right */
@@ -299,11 +287,4 @@ footer h5 {
   .innovative-img-container img {
     width: 80%;
   }
-}
-
-
-
-#testoc {
-  line-height: 66px;
-  vertical-align: top;
 }
