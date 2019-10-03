@@ -26,7 +26,7 @@
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-.align-absolute {
+.align-y {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -36,6 +36,7 @@
   display: block;
   margin-right: auto;
   margin-left: auto;
+  max-width: 100%;
 }
 
 .wd-60 {

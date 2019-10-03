@@ -23,6 +23,9 @@ ul {
 a {
   text-decoration: none;
 }
+.mw-970 {
+  max-width: 970px;
+}
 /* ------------------------------- */
 /*         HEADER         */
 /* ------------------------------- */
@@ -111,22 +114,20 @@ header {
   text-align: center;
 }
 #deploy-scale > .container {
-  max-width: 850px;
-  width: 95%;
-  max-width: 900px;
+  /* padding */
 }
 
 /* ------------------------------- */
 /*     DESIGNED FOR DEVELOPERS     */
 /* ------------------------------- */
 #design-for-devs > .container {
-  max-width: 865px;
   text-align: center;
 }
-#design-for-devs > .container > img {
+#design-for-devs > .container > img,
+#dev-teams-do > .container > img {
   display: block;
   margin: auto;
-  width: 90%;
+  max-width: 100%;
 }
 
 /* ------------------------------- */
@@ -155,6 +156,13 @@ header {
   border-bottom: 1px solid #ddd;
 }
 
+/* ------------------------------- */
+/*   DEVELOPMENT TEAMS DO */
+/* ------------------------------- */
+#dev-teams-do > .container {
+  text-align: center;
+}
+/* img see rule design for dev sec*/
 
 /* ------------------------------- */
 /*      MEDIA QUERY       */
