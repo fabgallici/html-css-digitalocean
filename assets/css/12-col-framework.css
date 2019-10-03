@@ -42,7 +42,21 @@ xxs = (max-width: 419px)
 La classe generica col-n è identica per tutti i viewport
 va usata da sola se si vuole un unico layout
 ***/
+
+/* classe visible-X da associare a clearfix dopo blocco per responsive column reset ad esempio <div class="clearfix visible-xs"></div>*/
 @media screen and (min-width:1200px) {
+  .visible-xs {
+    display: none;
+  }
+  .visible-md {
+    display: none;
+  }
+  .visible-xxs {
+    display: none;
+  }
+  .visible-lg {
+    display: block;
+  }
 
   .col-lg-12,
   .col-12 {
@@ -106,6 +120,18 @@ va usata da sola se si vuole un unico layout
 }
 
 @media screen and (min-width: 780px) and (max-width:1199px) {
+  .visible-xs {
+    display: none;
+  }
+  .visible-md {
+    display: block;
+  }
+  .visible-xxs {
+    display: none;
+  }
+  .visible-lg {
+    display: none;
+  }
 
   .col-md-12,
   .col-12 {
@@ -169,7 +195,18 @@ va usata da sola se si vuole un unico layout
 }
 
 @media screen and (min-width: 420px) and (max-width:779px) {
-
+  .visible-xs {
+    display: block;
+  }
+  .visible-md {
+    display: none;
+  }
+  .visible-xxs {
+    display: none;
+  }
+  .visible-lg {
+    display: none;
+  }
   .col-xs-12,
   .col-12 {
     width: 100%;
@@ -232,6 +269,18 @@ va usata da sola se si vuole un unico layout
 }
 
 @media screen and (max-width: 419px) {
+  .visible-xs {
+    display: none;
+  }
+  .visible-md {
+    display: none;
+  }
+  .visible-xxs {
+    display: block;
+  }
+  .visible-lg {
+    display: none;
+  }
 
   .col-xxs-12,
   .col-12 {
