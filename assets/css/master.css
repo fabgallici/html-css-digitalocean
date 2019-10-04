@@ -47,7 +47,8 @@ a {
   max-width: 1200px;
 }
 .btn-link:link,
-.btn-link:visited {
+.btn-link:visited,
+input[type="submit"] {
   display: inline-block;
   text-decoration: none;
   border-radius: 5px;
@@ -58,9 +59,12 @@ a {
   color: #551A8B;
 }
 .btn-link:hover,
-.btn-link:active {
+.btn-link:active,
+input[type=submit]:hover,
+input[type=submit]:active {
   background-color: #CCDBFF;
   transition: background-color 0.2s, border 0.2s, color 0.2s;
+  cursor: pointer;
 }
 section {
   padding: 40px 0;
@@ -195,7 +199,20 @@ header {
 #welcome-dev .row .left {
   color: #fff;
 }
-
+/* Header Form */
+#welcome-dev .contact-form,
+#welcome-dev h3 {
+  text-align: center;
+}
+#welcome-dev input[type="text"],
+#welcome-dev input[type="email"],
+#welcome-dev input[type="password"] {
+  width: 100%;
+  height: 30px;
+  margin: 5px 0;
+  padding-left: 10px;
+  
+}
 /* ------------------------------- */
 /*      INNOVATIVE BUSINESS        */
 /* ------------------------------- */
