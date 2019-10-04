@@ -1,3 +1,6 @@
+/* ----------------------------- */
+/*      BASIC SETUP          */
+/* ----------------------------- */
 * {
   margin: 0;
   border: 0;
@@ -40,6 +43,21 @@ ul {
 a {
   text-decoration: none;
 }
+
+section {
+  padding: 50px 0;
+}
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+span[class*="icon-"] {
+  font-size: 40px;
+  color: #005FE6;
+}
+/* --------------------------------- */
+/*      REUSABLE COMPONENTS      */
+/* --------------------------------- */
 .mw-970 {
   max-width: 970px;
 }
@@ -66,12 +84,16 @@ input[type=submit]:active {
   transition: background-color 0.2s, border 0.2s, color 0.2s;
   cursor: pointer;
 }
-section {
-  padding: 40px 0;
-}
-.container {
-  padding-left: 15px;
-  padding-right: 15px;
+.div-line:before,
+.div-line:after {
+    display: inline-block;
+    height: 1px;
+    content: " ";
+    width: 8vw;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: #5B6987;
 }
 /* ------------------------------- */
 /*         HEADER         */
@@ -239,17 +261,7 @@ header .form-container div[class*="col-"] {
   padding-right: 40px;
 }
 
-.div-line:before,
-.div-line:after {
-    display: inline-block;
-    height: 1px;
-    content: " ";
-    width: 8vw;
-    margin-bottom: 5px;
-    margin-left: 5px;
-    margin-right: 5px;
-    background-color: #5B6987;
-}
+
 /* ------------------------------- */
 /*      INNOVATIVE BUSINESS        */
 /* ------------------------------- */
@@ -317,7 +329,12 @@ header .form-container div[class*="col-"] {
 #built-for-bus h2 {
   text-align: center;
 }
-
+#built-for-bus a {
+  color: #005FE6;
+  font-weight: 600;
+  display: inline-block;
+  margin-top: 10px;
+}
 /* ------------------------------- */
 /*     SERVICE YOUR CUSTOMERS     */
 /* ------------------------------- */
