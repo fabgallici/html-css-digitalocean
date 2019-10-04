@@ -59,6 +59,7 @@ a {
 .btn-link:hover,
 .btn-link:active {
   background-color: #CCDBFF;
+  transition: background-color 0.2s, border 0.2s, color 0.2s;
 }
 section {
   padding: 40px 0;
@@ -93,20 +94,73 @@ header {
   float: left;
 }
 #new-oc-menu nav,
-.signup-btn {
+#digital-oc-menu .signup-btn,
+#menu-hamburger {
   float: right;
 }
 /*-> fine header floats */
-/* header spacing */
-
-#digital-oc-menu nav li{
-  height: 35px;
-  line-height: 35px;
-}
-
-/* debug */
+/* TOP MENU NEW OCEAN */
 #new-oc-menu {
-  border: 1px solid black;
+  border-bottom: 1px solid #E5E8ED;
+  padding: 10px 0;
+}
+#new-oc-menu .now-available {
+  font-size: 0.8em;
+  line-height: 19px;
+  margin-left: 5px;
+}
+#new-oc-menu .btn-link {
+  padding: 2px 5px;
+  background-color: #00D7D2;
+  font-size: 0.7em;
+  line-height: 19px;
+}
+#new-oc-menu nav li {
+  margin-left: 15px;
+}
+#new-oc-menu nav li a {
+  font-size: 0.9em;
+  color: #000;
+}
+/* MAIN MENU CON NAVBAR */
+#digital-oc-menu{
+  padding: 15px 0;
+}
+#logo-img-mobile,
+#menu-hamburger {
+  display: none;
+}
+#digital-oc-menu nav li{
+  height: 36px;
+  line-height: 36px;
+  margin-left: 15px;
+}
+#digital-oc-menu nav li a {
+  color: #000;
+  font-weight: bold;
+  font-size: 0.95em;
+}
+.digital-logo img {
+  padding-top: 3px;
+  height: 30px;
+}
+#digital-oc-menu #menu-hamburger {
+  height: 30px;
+  line-height: 30px;
+}
+#digital-oc-menu #menu-hamburger i {
+  color: #80A4FF;
+  font-size: 140%;
+}
+#digital-oc-menu .signup-btn .btn-link {
+  border: 1px solid #1173FF;
+  padding: 10px 20px;
+  font-size: 0.9em;
+}
+#digital-oc-menu .signup-btn .btn-link:hover {
+  background-color: #1173FF;
+  color: #fff;
+
 }
 
 /*  WELCOME DEV Bottom Header  */
@@ -276,6 +330,23 @@ footer h5 {
 /* ------------------------------- */
 /*      MEDIA QUERY       */
 /* ------------------------------- */
+/* top menu responsive */
+@media screen and (max-width:1049px) {
+  #logo-img-mobile,
+  #menu-hamburger {
+    display: block;
+  }
+  #logo-img-blue,
+  #digital-oc-menu nav,
+  #digital-oc-menu .signup-btn,
+  #new-oc-menu {
+    display: none;
+  }
+  .top-menu-wrapper {
+    background: none;
+    padding-top: 15px;
+  }
+}
 @media screen and (max-width:779px) {
   /* Innovative section */
   .innovative-img-container {
