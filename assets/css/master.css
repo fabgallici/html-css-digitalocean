@@ -11,6 +11,7 @@ body {
   background-color: #fff;
 }
 h1 {
+  font-size: 300%;
   padding: 20px 0;
 }
 h2 {
@@ -198,9 +199,6 @@ header {
 /* ------------------------------- */
 /*      INNOVATIVE BUSINESS        */
 /* ------------------------------- */
-/* #innovative-business .container {
-  width: 80%;
-} */
 #innovative-business {
   text-align: center;
 
@@ -231,7 +229,18 @@ header {
 #deploy-scale > .container .row [class*="col-"] {
   padding: 10px;
 }
-
+#deploy-scale .row li {
+  padding: 5px 10px;
+}
+#deploy-scale .row li a {
+  font-size: 1.1em;
+  font-weight: 600;
+  line-height: 160%;
+  color: #031B4E;
+}
+#deploy-scale .row li a:hover {
+  color: rgba(3,27,78,.5);
+}
 /* ------------------------------- */
 /*     DESIGNED FOR DEVELOPERS     */
 /* ------------------------------- */
