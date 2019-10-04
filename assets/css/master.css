@@ -387,9 +387,13 @@ footer {
   color: #fff;
 }
 footer > .container:first-child {
-  padding: 40px 0;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
-
+footer > .container:first-child [class*="col-"]  {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
 footer > .container:first-child li a {
   color: #808794;
   line-height: 150%;
@@ -448,6 +452,14 @@ footer h5 {
   .top-menu-wrapper {
     background: none;
     padding-top: 15px;
+  }
+}
+@media screen and (min-width:970px) {
+  footer > .container:first-child {
+    margin-left: 15%;
+  }
+  footer > .container:first-child [class*="col-"] {
+    width: 20%;
   }
 }
 @media screen and (max-width:779px) {

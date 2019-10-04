@@ -40,7 +40,7 @@ va usata da sola se si vuole un unico layout
 ***/
 
 /* classe visible-X da associare a clearfix dopo blocco per responsive column reset ad esempio <div class="clearfix visible-xs"></div>*/
-@media screen and (min-width:1200px) {
+@media screen and (min-width:970px) {
   .visible-xs {
     display: none;
   }
@@ -115,7 +115,7 @@ va usata da sola se si vuole un unico layout
   }
 }
 
-@media screen and (min-width: 780px) and (max-width:1199px) {
+@media screen and (min-width: 780px) and (max-width:969px) {
   .visible-xs {
     display: none;
   }
@@ -344,7 +344,7 @@ va usata da sola se si vuole un unico layout
 La classe generica offset-n è identica per tutti i viewport
 va usata da sola se si vuole un unico layout
 ***/
-@media screen and (min-width:1200px) {
+@media screen and (min-width:970px) {
 
   .lg-offset-11,
   .offset-11 {
@@ -402,7 +402,7 @@ va usata da sola se si vuole un unico layout
   }
 }
 
-@media screen and (min-width: 780px) and (max-width:1199px) {
+@media screen and (min-width: 780px) and (max-width:969px) {
 
   .md-offset-11,
   .offset-11 {
