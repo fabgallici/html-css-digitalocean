@@ -455,9 +455,6 @@ footer h5 {
   }
 }
 @media screen and (min-width:970px) {
-  footer > .container:first-child {
-    margin-left: 15%;
-  }
   footer > .container:first-child [class*="col-"] {
     width: calc(100%/5);
   }
