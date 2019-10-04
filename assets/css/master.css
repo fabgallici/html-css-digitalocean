@@ -11,7 +11,7 @@ body {
   background-color: #fff;
 }
 h1 {
-  font-size: 300%;
+  font-size: 320%;
   padding: 20px 0;
 }
 h2 {
@@ -198,8 +198,17 @@ header {
 }
 #welcome-dev .row .left {
   color: #fff;
+  padding: 20px;
 }
-/* Header Form */
+#welcome-dev .row .left p {
+  font-size: 140%;
+}
+header .form-container {
+  max-width: 80%;
+  margin: auto;
+  border: 5px solid #fff;
+  border-radius: 5px;
+}
 #welcome-dev .contact-form,
 #welcome-dev h2 {
   text-align: center;
@@ -218,20 +227,14 @@ header {
 #welcome-dev .form-divider {
   color: #5B6987;
 }
-.form-divider::after,
-.form-divider::before {
-    display: inline-block;
-    content: "";
-    height: 1px;
-    width: 25%;
-    margin-left: 13px;
-    margin-right: 13px;
-    margin-bottom: 4px;
-    border-top: 1px solid #5B6987;
-}
 #welcome-dev .submit-btn {
   background-color: #1633FF;
   color: #fff;
+}
+#welcome-dev .contact-form .btn-link {
+  border: 1px solid #5B6987;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 /* ------------------------------- */
 /*      INNOVATIVE BUSINESS        */
