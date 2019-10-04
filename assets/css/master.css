@@ -99,7 +99,7 @@ header {
   float: right;
 }
 /*-> fine header floats */
-/* TOP MENU NEW OCEAN */
+/*-- TOP MENU NEW OCEAN --*/
 #new-oc-menu {
   border-bottom: 1px solid #E5E8ED;
   padding: 10px 0;
@@ -122,7 +122,7 @@ header {
   font-size: 0.9em;
   color: #000;
 }
-/* MAIN MENU CON NAVBAR */
+/*-- MAIN MENU CON NAVBAR --*/
 #digital-oc-menu{
   padding: 15px 0;
 }
@@ -147,6 +147,7 @@ header {
 #digital-oc-menu #menu-hamburger {
   height: 30px;
   line-height: 30px;
+  position: relative;
 }
 #digital-oc-menu #menu-hamburger i {
   color: #80A4FF;
@@ -162,8 +163,30 @@ header {
   color: #fff;
 
 }
-
-/*  WELCOME DEV Bottom Header  */
+/* menu hamburger */
+#digital-oc-menu .dropdown-menu {
+  display: none;
+  position: absolute;
+  right: 0;
+  z-index: 1;
+  background-color: #F3F5F9;
+  width: 160px;
+}
+#digital-oc-menu #menu-hamburger:hover .dropdown-menu {
+  display: block;
+}
+#digital-oc-menu .dropdown-menu li {
+  padding: 5px 10px;
+}
+#digital-oc-menu .dropdown-menu li a {
+  display: inline-block;
+  width: 100%;
+  padding: 5px 20px;
+}
+#digital-oc-menu .dropdown-menu li a:hover {
+  background-color: #80A4FF;
+}
+/*---  WELCOME DEV Bottom Header  ----*/
 #welcome-dev.container {
   margin-top: 40px;
   padding-bottom: 40px;
