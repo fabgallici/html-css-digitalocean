@@ -201,8 +201,10 @@ header {
 }
 /* Header Form */
 #welcome-dev .contact-form,
-#welcome-dev h3 {
+#welcome-dev h2 {
   text-align: center;
+  background-color: #fff;
+  padding: 10px;
 }
 #welcome-dev input[type="text"],
 #welcome-dev input[type="email"],
@@ -211,7 +213,25 @@ header {
   height: 30px;
   margin: 5px 0;
   padding-left: 10px;
-  
+  border: 1px solid #5B6987;
+}
+#welcome-dev .form-divider {
+  color: #5B6987;
+}
+.form-divider::after,
+.form-divider::before {
+    display: inline-block;
+    content: "";
+    height: 1px;
+    width: 25%;
+    margin-left: 13px;
+    margin-right: 13px;
+    margin-bottom: 4px;
+    border-top: 1px solid #5B6987;
+}
+#welcome-dev .submit-btn {
+  background-color: #1633FF;
+  color: #fff;
 }
 /* ------------------------------- */
 /*      INNOVATIVE BUSINESS        */
