@@ -45,7 +45,7 @@ a {
 }
 
 section {
-  padding: 50px 0;
+  padding: 60px 0;
 }
 .container {
   padding-left: 15px;
@@ -103,6 +103,7 @@ header {
   background-image: url("../img/bg-home.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  padding-bottom: 30px;
 }
 .top-menu-wrapper {
   background-color: #fff;
@@ -220,19 +221,19 @@ header {
 }
 #welcome-dev .row .left {
   color: #fff;
-  padding: 20px;
+  padding: 20px 40px 20px 20px;
 }
 #welcome-dev .row .left p {
-  font-size: 140%;
+  font-size: 146%;
 }
 header .form-container {
-  max-width: 80%;
+  max-width: 476px;
   margin: auto;
   border: 5px solid #fff;
   border-radius: 5px;
 }
 header .form-container div[class*="col-"] {
-  padding: 7px 0;
+  padding: 7px 10px;
 }
 #welcome-dev .contact-form,
 #welcome-dev h2 {
@@ -252,15 +253,27 @@ header .form-container div[class*="col-"] {
   color: #5B6987;
 }
 #welcome-dev .submit-btn {
-  background-color: #1633FF;
+  background-color: #0A6FFF;
   color: #fff;
+  width: 100%;
+}
+#welcome-dev .submit-btn:hover {
+  background-color: #1633FF;
 }
 #welcome-dev .contact-form .btn-link {
   border: 1px solid #5B6987;
-  padding-left: 40px;
-  padding-right: 40px;
+  /* padding-left: 40px;
+  padding-right: 40px; */
+  position: relative;
+  width: 100%;
 }
-
+.form-icon {
+  height: 18px;
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+}
 
 /* ------------------------------- */
 /*      INNOVATIVE BUSINESS        */
@@ -291,6 +304,7 @@ header .form-container div[class*="col-"] {
 #deploy-scale .title {
   width: 85%;
   margin: auto;
+  padding-bottom: 3%;
 }
 #deploy-scale > .container .row [class*="col-"] {
   padding: 10px;
@@ -306,6 +320,10 @@ header .form-container div[class*="col-"] {
 }
 #deploy-scale .row li a:hover {
   color: rgba(3,27,78,.5);
+}
+#deploy-scale .deploy-icon {
+  color: #0A6FFF;
+  font-size: 2rem;
 }
 /* ------------------------------- */
 /*     DESIGNED FOR DEVELOPERS     */
@@ -460,6 +478,10 @@ footer h5 {
   }
 }
 @media screen and (max-width:779px) {
+  header .form-container {
+    max-width: 95%;
+  }
+
   /* Innovative section */
   .innovative-img-container {
     width: 90%;
