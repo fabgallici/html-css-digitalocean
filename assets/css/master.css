@@ -262,8 +262,6 @@ header .form-container div[class*="col-"] {
 }
 #welcome-dev .contact-form .btn-link {
   border: 1px solid #5B6987;
-  /* padding-left: 40px;
-  padding-right: 40px; */
   position: relative;
   width: 100%;
 }
