@@ -41,6 +41,9 @@ va usata da sola se si vuole un unico layout
 
 /* classe visible-X da associare a clearfix dopo blocco per responsive column reset ad esempio <div class="clearfix visible-xs"></div>*/
 @media screen and (min-width:970px) {
+  .visible-lg {
+    display: block;
+  }
   .visible-xs {
     display: none;
   }
@@ -50,9 +53,7 @@ va usata da sola se si vuole un unico layout
   .visible-xxs {
     display: none;
   }
-  .visible-lg {
-    display: block;
-  }
+
 
   .col-lg-12,
   .col-12 {
@@ -116,11 +117,11 @@ va usata da sola se si vuole un unico layout
 }
 
 @media screen and (min-width: 780px) and (max-width:969px) {
-  .visible-xs {
-    display: none;
-  }
   .visible-md {
     display: block;
+  }
+  .visible-xs {
+    display: none;
   }
   .visible-xxs {
     display: none;
@@ -265,19 +266,19 @@ va usata da sola se si vuole un unico layout
 }
 
 @media screen and (max-width: 419px) {
+  .visible-xxs {
+    display: block;
+  }
   .visible-xs {
     display: none;
   }
   .visible-md {
     display: none;
   }
-  .visible-xxs {
-    display: block;
-  }
+
   .visible-lg {
     display: none;
   }
-
   .col-xxs-12,
   .col-12 {
     width: 100%;
